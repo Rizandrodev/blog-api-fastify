@@ -80,7 +80,4 @@ export async function postsRoutes(app){
         console.log(postIndex)
         return reply.status(204 ).send()
     })
-
-
 }
-
