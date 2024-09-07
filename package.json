@@ -1,0 +1,21 @@
+{
+  "name": "blog-api",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Rizandro-dev",
+    "email": "Carvalhorizandro@gmail.com",
+    "url": "https://github.com/Rizandrodev"
+  },
+  "license": "MIT",
+  "description": "First api with Fastify",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "pino-pretty": "^11.2.2"
+  }
+}
